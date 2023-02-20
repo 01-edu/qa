@@ -27,7 +27,7 @@ jobs:
           username: ${{ secrets.USER_DOCKER_01EDU_ORG }}
           password: ${{ secrets.SECRET_DOCKER_01EDU_ORG }}
 
-      - name: Build the Go tests Docker image
+      - name: Build the GoQa tests Docker image
         run: |
           docker build . --file Dockerfile --tag ghcr.io/01-edu/test-goqa:latest
           docker push ghcr.io/01-edu/test-goqa:latest
