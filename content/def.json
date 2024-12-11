@@ -1,9 +1,6 @@
 {
 	"type": "campus",
 	"name": "qa",
-	"attrs": {
-		"capacity": 5
-	},
 	"children": {
 		"module-m1": {}
 	}
