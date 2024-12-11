@@ -1,4 +1,4 @@
-# Project A
+# Project P1
 
 This is an example of a dummy project subject
 
